@@ -19,4 +19,6 @@ if (score >= 90) {
   grade = "D";
 }
 
-console.log(`당신의 학점은 ${grade}입니다.`);
+score >= 60 ? console.log("합격") : console.log("불합격");
+
+console.log(`당신의 학점은 ${grade}등급 입니다.`);
